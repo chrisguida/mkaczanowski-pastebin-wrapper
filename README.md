@@ -1,4 +1,4 @@
-# Wrapper for File Browser
+# Wrapper for Mkaczanowski Pastebin
 
 ## Dependencies
 
@@ -11,8 +11,8 @@
 
 ## Cloning
 ```
-git clone git@github.com:Start9Labs/filebrowser-wrapper.git
-cd filebrowser-wrapper
+git clone git@github.com:chrisguida/mkaczanowski-pastebin-wrapper.git
+cd mkaczanowski-pastebin-wrapper
 git submodule update --init
 ```
 
@@ -24,5 +24,5 @@ make
 
 ## Installing (on Embassy)
 ```
-sudo appmgr install filebrowser.s9pk
+sudo appmgr install mkaczanowski-pastebin.s9pk
 ```
