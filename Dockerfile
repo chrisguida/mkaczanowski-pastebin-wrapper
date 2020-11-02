@@ -1,4 +1,4 @@
-FROM arm32v7/ubuntu:latest AS runner
+FROM debian:buster-slim
 ADD ./pastebin/target/armv7-unknown-linux-gnueabihf/release/pastebin /usr/local/bin/pastebin
 RUN chmod a+x /usr/local/bin/pastebin
 ADD ./docker_entrypoint.sh /usr/local/bin/docker_entrypoint.sh
