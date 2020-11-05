@@ -14,6 +14,6 @@ ports:
 image:
   type: tar
 mount: /root
-has-instructions: false
+has-instructions: true
 assets: []
 hidden-service-version: v3
