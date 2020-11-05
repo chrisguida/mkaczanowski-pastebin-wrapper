@@ -1,13 +1,12 @@
 compat: v0
 id: pastebin
-version: 1.0.0
+version: 0.1.2
 os-version-required: ">=0.2.4"
 os-version-recommended: ">=0.2.4"
 title: "Pastebin"
 description:
-  short: "Simple, fast, standalone pastebin service."
-  long: |
-    Whenever you need to share a code snippet, diff, logs, or a secret with another human being, the Pastebin service is invaluable. However, using public services such as pastebin.com, privnote.com, etc. should be avoided when you're sharing data that should be available only for a selected audience (i.e., your company, private network). Instead of trusting external providers, you could host your own Pastebin service and take ownership of all your data!
+  short: Share private links that contain self-destructing messages
+  long: A simple, fast, standalone, self-destructing pastebin service for sharing private information with other human beings. Simply type your message, choose your expiration and self-destruction rules, and share the ephemeral link. Your message never leaves the confines of your physical Embassy device.
 release-notes: https://github.com/mkaczanowski/pastebin
 ports:
   - internal: 80
